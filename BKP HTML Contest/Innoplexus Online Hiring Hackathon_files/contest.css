@@ -1,0 +1,233 @@
+a.twitter-share-button,
+a.twitter-mention-button,
+a.twitter-hashtag-button {
+   margin-top:10px;
+}
+.contest{
+    width : 100%;
+    padding-left:5%;
+    background-color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+    border-radius : 10px;
+    border : 2px solid green;
+    color:black;
+}
+
+.contest:hover a{
+    text-decoration:none;
+}
+
+#days,#minutes, #seconds, #hours{
+    display : inline-block;
+    margin-left:10px;
+    font-size : 30px;
+    font-weight:bold;
+}
+
+.jd
+{
+   display:inline-block;
+}
+.leaderboard td{
+        padding : 10px;
+        margin-left:10px;
+        font-weight:bold;
+    }
+
+
+
+body {
+}
+#masthead .well {
+ margin-top:8%;
+}
+
+.affix-bottom{
+   position : absolute;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (max-width: 879px) {
+
+  .fb-likes{
+    display:none;
+  }
+
+  #sidebar.affix-top {
+    position: static;
+    width:60px;
+    margin-top:0px;
+    color:white;
+    background:#222;
+  }
+
+  .pad10{
+    display:none;
+  }
+  #sidebar.affix {
+    position: fixed;
+    top:50px;
+    width:60px;
+    color:white;
+    background:#222;
+  }
+  .lead{
+     display:none;
+   }
+   .top80{
+	height: inherit
+   }
+}
+@media (min-width: 879px) {
+  #masthead{
+     min-height  : 350px ;
+  }
+  .fb-liked{
+    display:none;
+  }
+
+  #sidebar.affix-bottom{
+    position: absolute;
+    bottom : -50px;
+    width:200px;
+    margin-top:0px;
+    color:white;
+    background:#222;
+  }
+
+
+
+  #sidebar.affix-top {
+    position: static;
+    width:200px;
+    margin-top:0px;
+    color:white;
+    background:#222;
+  }
+
+
+  .wid50 i{
+    width:25px;
+    padding-right:10px;
+  }
+  .pad10{
+    padding-left:10px;
+  }
+  #sidebar.affix {
+    position: fixed;
+    top:50px;
+    width:200px;
+    color:white;
+    background:#222;
+  }
+}
+@media ( min-width:879px)
+{
+   #masthead h1{
+     margin-top:50px;
+     font-weight : bold;
+     font-size : 60px;
+     text-shadow : 5px 2px 4px #149;
+   }
+   .top80{
+   }
+}
+
+@media ( max-width:879px)
+{
+
+    .masthead-header
+    {display:none;}
+     #masthead h1 {
+       font-weight : bold;
+       margin-top:50px;
+       font-size : 35px;
+       text-shadow : 3px 2px 4px #149;
+     }
+
+    #pad0
+    {
+      margin-right:20px;
+      padding:0px;
+    }
+    #sidebar li a{
+      color:white;
+    }
+    #sidebar li a:hover{
+      color:white;
+      background-color:#09090b;
+    }
+    #sidebar li.active {
+      border:0 #0289d8 solid;
+      border-right-width:5px;
+      color:white;
+      background-color:black;
+    }
+
+    .buttonss{
+        width : 100px;
+    }
+    .buttons{
+        width : 150px;
+    }
+    .buttons button{
+        margin-left : auto;
+        margin-right:auto;
+    }
+    .data p{
+        text-align:center;
+    }
+    .image1, .image2,.image3{
+        width  : 70%;
+        margin-left:  20%;
+    }
+    .image4{
+        width  : 150px%;
+        margin-left:  44%;
+    }
+    .image{
+        width : 200px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #gllogo{
+         height:50px;padding:0px; margin:0px;width : 100px;
+         margin-top:-40px;
+    }
+    .clicks{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+    .buttonss button{
+        width : 200px;
+    }
+    .mm{
+        background : white;
+    }
+    #firstmodal .modal-dialog{
+        margin-left : 5%;
+        width  : 90%;
+    }
+    #firstmodal .modal-body{
+        width : 90%;
+    }
+}
+.masthead-header{
+    width : 100%; background-color:black;opacity:0.99;height:40px;color:white;margin-top:28px;
+}
+.masthead-header h4{
+   margin-top:14px;
+}
+
+/*24-march-2017*/
+.img-vol{
+  max-width: 214px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
